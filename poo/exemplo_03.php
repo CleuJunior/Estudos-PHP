@@ -59,15 +59,7 @@ class Documento{
 
             return true;
         }
-
     }
-
 }
-
-//$cpf = new Documento();
-//
-//$cpf->setNumero("50391860020");
-//
-//var_dump($cpf->getNumero());
 
 var_dump(Documento::validarCPF(50391860020));
